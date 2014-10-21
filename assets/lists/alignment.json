@@ -1,0 +1,14 @@
+{
+  "type": "alignment",
+  "values": {
+    "LG": { "text": "Lawful Good" },
+    "NG": { "text": "Neutral Good" },
+    "CG": { "text": "Chaotic Good" },
+    "LN": { "text": "Lawful Neutral" },
+    "TN": { "text": "Neutral" },
+    "CN": { "text": "Chaotic Netural" },
+    "LE": { "text": "Lawful Evil" },
+    "NE": { "text": "Neutral Evil" },
+    "CE": { "text": "Chaotic Evil" }
+  }
+}

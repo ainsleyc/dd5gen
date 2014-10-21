@@ -1,0 +1,10 @@
+{
+  "type": "prof_armor",
+  "groups": {
+    "light armor": {},
+    "medium armor": {},
+    "heavy armor": {}
+  },
+  "values": {
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "prof_skill",
+  "values": {
+    "athletics": { "attr": "str" },
+    "acrobatics": { "attr": "dex" },
+    "sleight of hand": { "attr": "dex" },
+    "stealth": { "attr": "dex" },
+    "arcana": { "attr": "int" },
+    "history": { "attr": "int" },
+    "investigation": { "attr": "int" },
+    "nature": { "attr": "int" },
+    "religion": { "attr": "int" },
+    "animal handling": { "attr": "wis" },
+    "insight": { "attr": "wis" },
+    "medicine": { "attr": "wis" },
+    "perception": { "attr": "wis" },
+    "survivial": { "attr": "wis" },
+    "deception": { "attr": "cha" },
+    "intimidation": { "attr": "cha" },
+    "performance": { "attr": "cha" },
+    "persuasion": { "attr": "cha" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "dwarf_hill",
+  "attr.wis": {
+    "$adjust": {
+      "const": 1
+    }
+  },
+  "ability": {
+    "$add": [
+      { "id": "dwarven toughness" }
+    ]
+  },
+  "hp.perm": {
+    "$adjust": {
+      "const": 1
+    }
+  },
+  "hp.curr": {
+    "$adjust": {
+      "const": 1
+    }
+  },
+  "per_level": {
+    "$add": [
+      { "hp.perm": { "$adjust": { "const": 1 } } }
+    ]
+  }
+}

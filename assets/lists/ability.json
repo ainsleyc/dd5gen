@@ -1,0 +1,16 @@
+{
+  "type": "ability",
+  "values": {
+    "darkvision": {},
+    "dwarven resilience": {},
+    "dwarven combat training": {},
+    "dwarven toughness": {},
+    "dwarven armor training": {},
+    "stonecutting": {},
+    "bardic inspiration": {},
+    "jack of all trades": {},
+    "song of rest": {},
+    "font of inspiration": {},
+    "countercharm": {}
+  }
+}

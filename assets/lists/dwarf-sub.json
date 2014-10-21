@@ -1,0 +1,7 @@
+{
+  "type": "dwarf_sub",
+  "values": {
+    "dwarf_hill": { "text": "hill dwarf" },
+    "dwarf_mountain": { "text": "mountain dwarf" }
+  }
+}

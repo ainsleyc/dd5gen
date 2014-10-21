@@ -1,0 +1,14 @@
+{
+  "type": "races",
+  "values":       {
+    "dwarf":      { "text": "dwarf" },
+    "elf":        { "text": "elf" },
+    "halfling":   { "text": "halfling" },
+    "human":      { "text": "human" },
+    "dragonborn": { "text": "dragonborn" },
+    "gnome":      { "text": "gnome" },
+    "half-elf":   { "text": "half-elf" },
+    "half-orc":   { "text": "half-orc" },
+    "tiefling":   { "text": "tiefling" }
+  }
+}

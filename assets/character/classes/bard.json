@@ -1,0 +1,179 @@
+{
+  "type": "bard",
+  "hp.perm": {
+    "$adjust": {
+      "const": 8
+    }
+  },
+  "hp.curr": {
+    "$adjust": {
+      "const": 8
+    }
+  },
+  "prof_armor": {
+    "$add": [
+      { "id": "light armor" }
+    ]
+  },
+  "prof_weapon": {
+    "$add": [
+      { "id": "simple weapons" },
+      { "id": "hand crossbow" },
+      { "id": "longsword" },
+      { "id": "rapier" },
+      { "id": "shortsword" }
+    ]
+  },
+  "prof_tool": {
+    "$add": [
+      { "$select": "insturment" },
+      { "$select": "insturment" },
+      { "$select": "insturment" }
+    ]
+  },
+  "prof_save": {
+    "$add": [
+      { "id": "dex" },
+      { "id": "cha" }
+    ]
+  },
+  "prof_skill": {
+    "$add": [
+      { "$select": "prof_skill" },
+      { "$select": "prof_skill" },
+      { "$select": "prof_skill" }
+    ]
+  },
+  "ability": {
+    "$add": [
+      { "id": "bardic inspiration", "uses_attr": "cha", "die": "6" }
+    ]
+  },
+  "spells_bard": {
+    "$set": {
+      "attr": { "value": "cha" },
+      "limit": {
+        "cantrip": 2,
+        "spells": 4
+      },
+      "known": {
+        "0": [],
+        "1": []
+      },
+      "cast": {
+        "1": {
+          "perm": 2,
+          "curr": 2
+        }
+      }
+    }
+  },
+  "levels": {
+    "$set": {
+      "bard": 1
+    }
+  },
+  "_levels": [
+    {},
+    {
+      "_level": "1"
+    },
+    {
+      "_level": "2",
+      "ability": {
+        "$add": [
+          { "id": "jack of all trades" },
+          { "id": "song of rest", "die": 6 }
+        ]
+      }
+    },
+    {
+      "_level": "3",
+      "path_bard": {
+        "$choose": "bard_college"
+      }
+    },
+    {
+      "_level": "4",
+      "attr_gain": {
+        "$choose": "attr_gain" 
+      }
+    },
+    {
+      "_level": "5",
+      "ability.bardic inspiration.die": {
+        "$set": 8
+      },
+      "ability": {
+        "$add": [
+          { "id": "font of inspiration" }
+        ]
+      }
+    },
+    {
+      "_level": "6",
+      "ability": {
+        "$add": [
+          { "id": "countercharm" }
+        ]
+      }
+    },
+    {
+      "_level": "7"
+    },
+    {
+      "_level": "8"
+    },
+    {
+      "_level": "9",
+      "ability.song of rest.die": {
+        "$set": 8
+      }
+    },
+    {
+      "_level": "10",
+      "ability.bardic inspiration.die": {
+        "$set": 10
+      }
+    },
+    {
+      "_level": "11"
+    },
+    {
+      "_level": "12"
+    },
+    {
+      "_level": "13",
+      "ability.song of rest.die": {
+        "$set": 10
+      }
+    },
+    {
+      "_level": "14"
+    },
+    {
+      "_level": "15",
+      "ability.bardic inspiration.die": {
+        "$set": 12
+      }
+    },
+    {
+      "_level": "16"
+    },
+    {
+      "_level": "17",
+      "ability.song of rest.die": {
+        "$set": 12
+      }
+    },
+    {
+      "_level": "18"
+    },
+    {
+      "_level": "19"
+    },
+    {
+      "_level": "20"
+    }
+  ]
+}

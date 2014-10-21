@@ -1,0 +1,23 @@
+{
+  "type": "prof_tool",
+  "groups": {
+    "insturment": {}
+  },
+  "values": {
+    "smiths tools": {
+      "text": "Smith's Tools"
+    },
+    "brewers supplies": {
+      "text": "Brewer's Supplies"
+    },
+    "masons tools": {
+      "text": "Mason's Tools"
+    },
+    "lute": {
+      "group": "insturment"   
+    },
+    "flute": {
+      "group": "insturment"   
+    }
+  }
+}

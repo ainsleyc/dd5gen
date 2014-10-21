@@ -1,0 +1,33 @@
+{
+  "type": "prof_weapon",
+  "groups": {
+    "simple weapons": {},
+    "martial weapons": {}
+  },
+  "values": {
+    "battleaxe": {
+      "text": "Battleaxe",
+      "group": "martial" 
+    },
+    "handaxe": {
+      "text": "Handaxe",
+      "group": "martial" 
+    },
+    "throwing hammer": {
+      "text": "Throwing Hammer",
+      "group": "martial" 
+    },
+    "hand crossbow": {
+    },
+    "longsword": {
+    },
+    "rapier": {
+    },
+    "shortsword": {
+    },
+    "warhammer": {
+      "text": "Warhammer",
+      "group": "martial" 
+    }
+  }
+}

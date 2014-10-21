@@ -1,0 +1,19 @@
+{
+  "type": "dwarf_mountain",
+  "attr.str": {
+    "$adjust": {
+      "const": 2
+    }
+  },
+  "ability": {
+    "$add": [
+      { "id": "dwarven armor training", "name": "Dwarven Armor Training" }
+    ]
+  },
+  "prof_armor": {
+    "$add": [
+      { "id": "light armor" },
+      { "id": "medium armor" }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "dwarf",
+  "attr.con": {
+    "$adjust": {
+      "const": 2
+    }
+  },
+  "size": {
+    "$set": { "value": "medium" }
+  },
+  "speed": {
+    "$set": { "value": 25, "noArmorPenality": true }
+  },
+  "ability": {
+    "$add": [
+      { "id": "darkvision", "text": "Darkvision" },
+      { "id": "dwarven resilience", "text": "Dwarven Resilience" },
+      { "id": "dwarven combat training", "text": "Dwarven Combat Training" },
+      { "id": "stonecutting", "text": "Stonecutting" }
+    ]
+  },
+  "prof_weapon": {
+    "$add": [
+      { "id": "battleaxe" },
+      { "id": "handaxe" },
+      { "id": "throwing hammer" },
+      { "id": "warhammer" }
+    ]
+  },
+  "prof_tool": { 
+    "$add": [
+      { "$select-subset": [
+        { "id": "smiths tools" },
+        { "id": "brewers supplies" },
+        { "id": "masons tools" }
+      ] }
+    ]
+  },
+  "language": {
+    "$add": [
+      { "id": "common" },
+      { "id": "dwarvish" }
+    ]
+  },
+  "subRace": { 
+    "$choose": "dwarf_sub" 
+  }
+}

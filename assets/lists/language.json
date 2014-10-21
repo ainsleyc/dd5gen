@@ -1,0 +1,21 @@
+{
+  "type": "language",
+  "values": {
+    "common": {},
+    "dwarvish": {},
+    "elvish": {},
+    "giant": {},
+    "gnomish": {},
+    "goblin": {},
+    "halfling": {},
+    "orc": {},
+    "abyssal": {},
+    "celestial": {},
+    "draconic": {},
+    "deep": {},
+    "infernal": {},
+    "primordial": {},
+    "sylvan": {},
+    "undercommon": {}
+  }
+}

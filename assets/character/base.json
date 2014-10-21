@@ -1,0 +1,41 @@
+{
+  "type": "base",
+  "name": { "value": "" },
+  "alignment": { "$select": "alignment" },
+  "age": { "value": 0 },
+  "size": {},
+  "speed": {},
+  "race": { "$choose": "races" },
+  "attr": {
+    "str": { "value": 0 },
+    "dex": { "value": 0 },
+    "con": { "value": 0 },
+    "int": { "value": 0 },
+    "wis": { "value": 0 },
+    "cha": { "value": 0 }
+  },
+  "hp": {
+    "curr": { "value": 0 },
+    "perm": { "value": 0 },
+    "temp": { "value": 0 }
+  },
+  "prof_weapon": [],
+  "prof_armor": [],
+  "prof_skill": [],
+  "prof_tool": [],
+  "prof_save": [],
+  "language": [],
+  "ability": [],
+  "levels": {},
+  "exp": { "value": 0 },
+  "equipment": {
+    "armor": {},
+    "weapons": [
+      { "type": "dagger" }
+    ],
+    "items": [
+      { "type": "healingPotion" }
+    ]
+  },
+  "per_level": []
+}
